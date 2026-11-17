@@ -1,0 +1,16 @@
+
+<section class="friends-card" id="amis">
+  <div class="friends-icon">👥</div>
+
+  <div class="friends-content">
+    <h2>Liste des amis</h2>
+
+    <ul>
+      @for (friend of friends; track $index) {
+        <li>{{ friend }}</li>
+      } @empty {
+        <li>Aucun ami disponible.</li>
+      }
+    </ul>
+  </div>
+</section>

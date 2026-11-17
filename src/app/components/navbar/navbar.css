@@ -1,0 +1,28 @@
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #243b53;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.navbar a:hover {
+  background-color: #e8f1ff;
+}
+
+.navbar .active {
+  background-color: #2563eb;
+  color: white;
+}
